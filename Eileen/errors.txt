@@ -1,0 +1,18 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 234: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation.
+    "no"
+    ^
+
+File "game/script.rpy", line 235: end of line expected.
+    jump option4: 
+                ^
+
+File "game/script.rpy", line 238: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    "yes"
+    ^
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Sat May 09 15:44:32 2020

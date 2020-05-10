@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 96, in script
+    show plasticwrap at middle
+  File "game/script.rpy", line 96, in <module>
+    show plasticwrap at middle
+NameError: name 'middle' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 96, in script
+    show plasticwrap at middle
+  File "D:\Hackathon\renpy-7.3.5-sdk\renpy\ast.py", line 1183, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "D:\Hackathon\renpy-7.3.5-sdk\renpy\ast.py", line 1142, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "D:\Hackathon\renpy-7.3.5-sdk\renpy\python.py", line 2059, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\Hackathon\renpy-7.3.5-sdk\renpy\python.py", line 2052, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 96, in <module>
+    show plasticwrap at middle
+NameError: name 'middle' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+Eileen 1.0
+Sat May 09 11:38:13 2020
